@@ -19,7 +19,6 @@ public class Filme {
     private String genero;
     
     
-    
     /**
      * @deprecated hibernate only
      */
