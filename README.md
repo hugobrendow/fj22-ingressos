@@ -4,7 +4,7 @@
 - Ano: 2018
 
 > Tecnologias:
-- Spring MVC
-- JPA/Hibernate
-- Apache Jetty
-- Bootstrap
+>- Spring MVC
+>- JPA/Hibernate
+>- Apache Jetty
+>- Bootstrap
