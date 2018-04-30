@@ -1,3 +1,4 @@
-Desenvolvido por: Hugo Brendow
-Curso: FJ22 - Lab
-Ano: 2018
+- Desenvolvido por: Hugo Brendow
+
+- Curso: FJ22 - Lab
+- Ano: 2018
