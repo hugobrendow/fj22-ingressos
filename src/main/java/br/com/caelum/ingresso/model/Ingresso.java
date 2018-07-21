@@ -15,6 +15,7 @@ public class Ingresso {
     }
 
     public Ingresso(Sessao sessao, Desconto tipoDeDesconto){
+    	this.sessao = sessao;
         this.preco = tipoDeDesconto.aplicarDescontoSobre(sessao.getPreco());
     }
 
