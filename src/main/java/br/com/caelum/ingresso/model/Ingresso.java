@@ -44,7 +44,7 @@ public class Ingresso {
     }
 
     public void setPreco(BigDecimal preco) {
-        this.sessao = sessao;
+        this.preco = preco;
     }
 
 	public Lugar getLugar() {
