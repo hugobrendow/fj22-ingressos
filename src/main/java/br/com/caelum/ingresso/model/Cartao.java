@@ -2,7 +2,10 @@ package br.com.caelum.ingresso.model;
 
 import java.time.YearMonth;
 
-public class Cartao {
+import br.com.caelum.ingresso.converter.YearMonthConverter;
+
+public class Cartao extends YearMonthConverter {
+	
 	private String numero;
 	private Integer cvv;
 	private YearMonth vencimento;

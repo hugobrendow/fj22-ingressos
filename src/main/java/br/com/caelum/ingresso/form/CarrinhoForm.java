@@ -1,4 +1,4 @@
-package br.com.caelum.ingresso.model.form;
+package br.com.caelum.ingresso.form;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -13,9 +13,9 @@ import org.springframework.web.servlet.ModelAndView;
 import br.com.caelum.ingresso.dao.CompraDao;
 import br.com.caelum.ingresso.dao.LugarDao;
 import br.com.caelum.ingresso.dao.SessaoDao;
+import br.com.caelum.ingresso.form.CarrinhoForm;
 import br.com.caelum.ingresso.model.Carrinho;
 import br.com.caelum.ingresso.model.Cartao;
-import br.com.caelum.ingresso.model.form.CarrinhoForm;
 
 @Controller
 public class CompraController {
