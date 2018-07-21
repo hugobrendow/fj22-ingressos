@@ -8,13 +8,7 @@
     <artifactId>ingresso</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
-	
-	<developers>
-		<developer>
-			<name>Hugo Brendow</name>
-			<email>hugobrendow97@gmail.com</email>
-		</developer>
-	</developers>
+
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -129,11 +123,13 @@
             <artifactId>javax.mail</artifactId>
             <version>1.5.6</version>
         </dependency>
-        
-         <dependency>
+
+        <!-- https://mvnrepository.com/artifact/junit/junit -->
+        <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.12</version>
+            <scope>test</scope>
         </dependency>
 
     </dependencies>
@@ -155,12 +151,17 @@
             <plugin>
                 <groupId>org.eclipse.jetty</groupId>
                 <artifactId>jetty-maven-plugin</artifactId>
-                <version>9.4.0.v20161208</version>
+                <version>9.2.21.v20170120</version><!--9.4.0.v20161208 // Versão Anterior -->
                 <configuration>
                     <scanIntervalSeconds>10</scanIntervalSeconds>
                 </configuration>
             </plugin>
         </plugins>
     </build>
-
+    <developers>
+        <developer>
+            <name>Willians Andrade</name>
+            <email>willians.lemos87@gmail.com</email>
+        </developer>
+    </developers>
 </project>

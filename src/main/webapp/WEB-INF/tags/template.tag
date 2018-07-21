@@ -10,6 +10,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
+	<link rel="icon" href="/assets/images/caelum.ico" type="image/x-icon" />
 <jsp:invoke fragment="compra_css"/>
 </head>
 <body>
@@ -34,7 +35,7 @@
 
 					<li><a href="/admin/filmes">Filmes</a></li>
 					<li><a href="/admin/salas">Salas</a></li>
-			<!--		<li><a href="/filme/em-cartaz">Comprar</a></li>		-->																					
+					<li><a href="/filme/em-cartaz">Comprar</a></li>
 
 					<sec:authorize access="!isAuthenticated()">
 						<li><a href="/login">Login</a></li>
